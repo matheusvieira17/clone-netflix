@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.carousel-films {
+  margin-top: 4rem;
+}
+
+.films {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
