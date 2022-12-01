@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+header .container {
+  padding: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container h2 {
+  color: var(--netflix-red);
+  font-family: var(--special-font);
+  font-weight: 900;
+  font-size: 4rem;
+  
+  text-transform: uppercase;
+}
+
+#navbar #nav-item {
+  display: flex;
+  gap: 3.2rem;
+}
+
+#nav-item a {
+  color: #aaa;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+#nav-item a:hover {
+  color: var(--default-color)
+}
+
+
