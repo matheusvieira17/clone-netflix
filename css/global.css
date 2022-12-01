@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  font-size: 10px;
+  --special-font: "Bebas Neue", cursive;
+  --default-font: Arial, Helvetica, sans-serif;
+  --default-color: #f7f7f7;
+  --netflix-black: #383838;
+  --netflix-red: #e50914;
+  --netflix-dark-red: #b20710;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--default-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: var(--netflix-black);
+  font-size: 1.6rem;
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
