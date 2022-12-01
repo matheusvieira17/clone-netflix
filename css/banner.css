@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+main .banner {
+  height: 40rem;
+  background-image: url(/images/capa-house.jpg);
+  background-size: cover;
+  filter: brightness(72%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
+.banner .container {
+  padding: 1.2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.banner h3 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 8rem;
+}
+
+.banner p {
+  font-size: 1.8rem;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.buttons i {
+  margin-right: 0.8rem;
+}
+
+.buttons button {
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  padding: 1.6rem;
+  background-color: #1717176d;
+  color: var(--default-color);
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: var(--default-color);
+  color: var(--netflix-black);
+}
