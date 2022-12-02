@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@media (max-width: 1024px) {
+
+.banner .container {
+    display: flex
+}
+  .banner .container {
+    width: 100%;
+  }
+
+  .banner .container h3 {
+    font-size: 4.2rem;
+    margin-top: 10rem;
+  }
+
+  .banner .container p {
+    width: 80%;
+    font-size: 1.8rem;
+  }
+}

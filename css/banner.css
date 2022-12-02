@@ -9,7 +9,7 @@ main .banner {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  
+  width: 100%;
 }
 
 .banner .container {
@@ -21,7 +21,7 @@ main .banner {
 }
 
 .banner h3 {
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
   margin-top: 8rem;
 }
@@ -44,7 +44,7 @@ main .banner {
   border: none;
   outline: none;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-top: 4rem;
   padding: 1.6rem;
