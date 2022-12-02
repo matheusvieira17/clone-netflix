@@ -1,10 +1,6 @@
 @charset "utf-8";
 
 @media (max-width: 1024px) {
-
-.banner .container {
-    display: flex
-}
   .banner .container {
     width: 100%;
   }
@@ -18,4 +14,14 @@
     width: 80%;
     font-size: 1.8rem;
   }
+}
+
+@media (max-width: 500px) {
+    .banner .container h3 {
+      font-size: 3.6rem;
+    }
+
+    .banner .container p {
+      font-size: 1.6rem;
+    }
 }

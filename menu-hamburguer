@@ -1,0 +1,7 @@
+const menuHamburguer = document.querySelector("#btn-mobile");
+
+function openMenu() {
+  const nav = document.querySelector("#navbar");
+  nav.classList.toggle("active");
+}
+menuHamburguer.addEventListener("click", openMenu);
