@@ -3,7 +3,7 @@
 footer {
   margin-top: 4rem;
   font-size: 1.3rem;
-  color: #aaa;
+  color: var(--footer-color);
   display: flex;
   flex-direction: column;
   align-items: center;

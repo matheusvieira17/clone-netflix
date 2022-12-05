@@ -6,7 +6,7 @@
   }
 
   .banner .container h3 {
-    font-size: 4.2rem;
+    font-size: 4rem;
     margin-top: 10rem;
   }
 
@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .banner .container h3 {
       font-size: 3.6rem;
     }
@@ -24,4 +24,31 @@
     .banner .container p {
       font-size: 1.6rem;
     }
+}
+
+@media (max-width: 425px) {
+  main .banner {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner .container h3 {
+    text-align: center;
+  }
+
+  .banner .container p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons button {
+    font-size: 64%;
+    text-align: center;
+  }
 }
